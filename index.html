@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+  <html lang="fr">
+    <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <meta charset="utf-8">
+      <link href="https://fonts.googleapis.com/css?family=Monda" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css">
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    </head>
+
+    <body class="container">
+      <fieldset>
+        <form class="formulaire">
+
+          <label for="produit">produit</label>
+          <input type="text" name="produit"  class="produit" required>
+            <label for="phrase">accroche</label>
+          <input type="text" name="phrase"  class="phrase" required>
+            <label for="description">description</label>
+          <input type="text" name="description" = class="description" required>
+          <button type="submit" onclick="valider()" id="valider">valider</button>
+        </form>
+      </fieldset>
+
+
+      <div class="fiche">
+        <p id="a">votre produit est : </p>
+        <p id="b">vous aimerez : </p>
+        <p id="c">description : </p>
+      </div>
+
+
+
+
+      <!--Import jQuery before materialize.js-->
+      <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+      <script type="text/javascript" src="js/main.js"></script>
+    </body>
+</html>
