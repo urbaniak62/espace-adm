@@ -10,17 +10,3 @@ label{
   font-size:;
   color: #8098a5;
 }
-
-
-
-}
-.fiche p{
-align-items: baseline;
-margin:0px 0px 0px 15px;
-box-sizing: border-box;
-height: 80px;
-line-height: 40px;
-color:white;
-font-weight: bolder;
-text-decoration: underline;
-}
