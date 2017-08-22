@@ -10,15 +10,7 @@ label{
   font-size:;
   color: #8098a5;
 }
-.fiche{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  border: 1px solid red;
-  height: auto;
-  width: auto;
-  margin-top: 20px;
-  background-color: #534b4b;
+
 
 
 }
